@@ -187,7 +187,7 @@
          "value":true
         }],
  "renderorder":"right-down",
- "tiledversion":"2020.10.30",
+ "tiledversion":"2020.11.25",
  "tileheight":32,
  "tilesets":[
         {
@@ -632,7 +632,7 @@
         {
          "columns":32,
          "firstgid":1098,
-         "image":"tiles\/base_out_atlas.png",
+         "image":"..\/..\/christmas\/tiles\/base_out_atlas.png",
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
@@ -642,6 +642,19 @@
          "tileheight":32,
          "tiles":[
                 {
+                 "animation":[
+                        {
+                         "duration":400,
+                         "tileid":732
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":733
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":734
+                        }],
                  "id":0,
                  "properties":[
                         {
@@ -1549,6 +1562,22 @@
                          "type":"bool",
                          "value":true
                         }]
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":400,
+                         "tileid":732
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":733
+                        }, 
+                        {
+                         "duration":400,
+                         "tileid":734
+                        }],
+                 "id":732
                 }, 
                 {
                  "id":739,
